@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sakhi_signups",
+  "info": {
+    "singularName": "sakhi-signup",
+    "pluralName": "sakhi-signups",
+    "displayName": "Sakhi Signup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "text",
+      "required": true
+    },
+    "experience": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

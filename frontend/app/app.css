@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Red Hat Display", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@layer base {
+  
+  h1 {
+    font-size: var(--text-8xl);
+    letter-spacing: var(--tracking-tight);
+  };
+
+}
