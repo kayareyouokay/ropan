@@ -1,4 +1,4 @@
-import type { Route } from "./+types/home";
+import type { Route } from "./+types/blogs";
 import Hero from "./components/heroDynamic";
 import BlogCard from "./components/blogCard";
 

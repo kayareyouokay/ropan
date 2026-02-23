@@ -28,7 +28,7 @@ export default function Navbar() {
       className={`fixed left-0 right-0 top-12 z-50 transition-transform duration-300
       ${show ? "translate-y-0" : "-translate-y-[190%]"}`}
     >
-      <nav className="mx-auto flex w-[92%] max-w-7xl items-center justify-between rounded-full bg-black/40 px-6 py-3 text-white backdrop-blur-md">
+      <nav className="mx-auto flex w-[85%] max-w-7xl items-center justify-between rounded-full bg-black/40 px-6 py-3 text-white backdrop-blur-md">
 
         {/* LOGO */}
         <span className="text-lg font-semibold">ropan</span>
