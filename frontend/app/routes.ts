@@ -6,6 +6,7 @@ export default [
     route("how-ropan-works", "routes/howRopanWorks.tsx"),
     route("for-families", "routes/forFamilies.tsx"),
     route("for-investors", "routes/forInvestors.tsx"),
+    route("team-and-advisors", "routes/teamAndAdvisors.tsx"),
     route("blogs", "routes/blogs.tsx"),
     route("blog/:slug", "routes/blog.$slug.tsx"),
     route("contact", "routes/contact.tsx")
